@@ -1,0 +1,20 @@
+body {
+    background: #0a58ca;
+    display: flex;
+}
+
+nav {
+    width: 5%;
+    height: 100vh;
+    background-color: #F8FAFD;
+}
+
+.main-content{
+    width: 65%;
+    background-color: #FFFFFF;
+}
+
+.sub-main-content{
+    border: 1px solid blueviolet;
+    width: 30%;
+}
