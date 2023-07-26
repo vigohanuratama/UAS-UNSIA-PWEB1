@@ -1,5 +1,19 @@
+/*Assets Color*/
+.blue{
+  color: #0a58ca;
+}
+
+.light-gray {
+    color: #F8FAFD
+}
+
+.dark-gray{
+    color: #A4A4A9;
+}
+
+
+
 body {
-    background: #0a58ca;
     display: flex;
 }
 
@@ -9,10 +23,22 @@ nav {
     background-color: #F8FAFD;
 }
 
+.nav-item .active{
+    border-right: 3px solid #0a58ca;
+    background-color: #FFFFFF;
+}
+
 .main-content{
     width: 65%;
     background-color: #FFFFFF;
 }
+
+video {
+    height: 500px;
+    width: 100%;
+}
+
+
 
 .sub-main-content{
     border: 1px solid blueviolet;
