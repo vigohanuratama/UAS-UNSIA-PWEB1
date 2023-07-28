@@ -1,6 +1,7 @@
 const navLink = document.querySelectorAll('.nav-link')
 const video = document.getElementById('videoAssets')
 const iconButton = document.getElementById('iconControl')
+const progressBarFill = document.getElementById("progressBarFill");
 let playButton = false
 
 
@@ -28,6 +29,11 @@ const videoAction = () => {
         console.log(iconButton.classList)
     }
 }
+
+video.addEventListener('timeupdate', () => {
+    const progress = (video.currentTime / video.duration) * 100;
+    progressBarFill.style.width = `${progress}%`;
+});
 
 
 

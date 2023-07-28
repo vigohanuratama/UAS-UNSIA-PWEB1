@@ -15,6 +15,22 @@
     color: #8F8F96;
 }
 
+.turquoise{
+    color: #02BE95;
+}
+
+.bg-turquoise {
+    background-color: #02BE95;
+}
+
+.bg-light-turquoise{
+    background-color: #CCF2EA;
+}
+
+.bg-gray {
+    background-color: #F3F3F6;
+}
+
 
 
 body {
@@ -23,18 +39,15 @@ body {
 
 nav {
     width: 5%;
-    height: 100vh;
-    background-color: #F8FAFD;
 }
 
 .nav-item .active{
     border-right: 3px solid #0a58ca;
-    background-color: #FFFFFF;
+    background-color: white;
 }
 
 .main-content{
     width: 65%;
-    background-color: #FFFFFF;
 }
 
 .video-container {
@@ -52,23 +65,19 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #F8FAFD;
     border-radius: 100%;
     opacity: 0.5;
     padding: 25px 27px;
 }
 
 .text-information .nav-text-information .active{
-    border-bottom: 2px solid #0a58ca;
+    border-bottom: 2px solid #02BE95;
 }
 
 .text-information p{
     text-align: justify;
 }
 
-.text-information .notes .instructor-information {
-    background-color: #F9FAFD;
-}
 
 .text-information .notes .instructor-information .instructor-profile {
     width: 50px;
@@ -79,4 +88,27 @@ nav {
 .sub-main-content{
     border-left: 3px solid #F3F3F6;
     width: 30%;
+}
+
+
+.sub-main-content .title-content {
+    font-size: 30px;
+}
+
+.sub-main-content .video-progress .progress {
+    height: 10px;
+}
+
+.sub-main-content .video-progress .progress .progress-bar{
+    height: 100%;
+}
+
+.sub-main-content .video-progress ol {
+    font-size: 20px;
+}
+
+.sub-main-content .discussion .discussion-box .discussion-content .profile-user .image{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
 }
