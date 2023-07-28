@@ -4,57 +4,102 @@
     <meta charset="UTF-8">
     <title>UAS DASHBOARD</title>
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="sticky-top flex-column text-center">
-        <div class="mt-5 mb-5">
-           <i class="fa-solid fa-bath fa-2xl" style="color: #5E63F2"></i>
-        </div>
-        <ul class="list-unstyled">
-            <li class="nav-item">
-                <a href="index.html" class="nav-link p-3">
-                    <i class="fa-solid fa-house fa-xl" style="color: #9E9FA8"></i>
-                </a>
-            </li>
-        </ul>
-
-    </nav>
-    <div class="main-content container px-5 py-3">
-        <div class="title-content">
-            <p class="tag dark-gray mb-4">Course / Design / <span class="blue">Master of Puppet</span></p>
-            <div class="title">
-                <div class="row">
-                    <div class="col-8">
-                        <h1>BAD BOY</h1>
-                        <p>Bambang Pamungkas</p>
-                    </div>
-                    <div class="col-4 d-flex">
-                        <p class="dark-gray ">CHAPTER 3/5</p>
-                    </div>
+<nav class="sticky-top flex-column text-center">
+    <div class="mt-5 mb-5">
+        <i class="fa-solid fa-bath fa-2xl" style="color: #5E63F2"></i>
+    </div>
+    <ul class="list-unstyled">
+        <li class="nav-item">
+            <a class="nav-link p-3" href="index.html">
+                <i class="fa-solid fa-house fa-xl" style="color: #9E9FA8"></i>
+            </a>
+        </li>
+    </ul>
+</nav>
+<div class="main-content container px-5 py-3">
+    <div class="title-content">
+        <p class="tag dark-gray fw-bold mb-4">Course / Design / <span class="blue">Master of Puppet</span></p>
+        <div class="title">
+            <div class="row">
+                <div class="col-8">
+                    <h1>BAD BOY</h1>
+                    <p>Bambang Pamungkas</p>
+                </div>
+                <div class="col-4 ">
+                    <p class="dark-gray">CHAPTER 3/5</p>
                 </div>
             </div>
-            <div class="video my-3">
-                <video controls src="assets/video.mp4" class="object-fit-cover border rounded" ></video>
+        </div>
+        <div class="video-container my-3 position-relative" id="videoContainer" onclick="controlVideo()">
+            <video
+                    class="object-fit-cover" height="500px"
+                    id='videoAssets'
+                    src="assets/video.mp4"
+                    width="100%"></video>
+            <div class="control-button" id="iconControl">
+                <i class="fa-solid fa-play fa-xl" id="icon"></i>
             </div>
         </div>
-        <div>
-            video
+    </div>
+    <div class="container-fluid text-information mt-4">
+        <div class="nav-text-information d-flex">
+            <h5 class="me-5 active pb-1">Notes</h5>
+            <h5 class="me-5 dark-gray">Resources</h5>
+            <h5 class="me-5 dark-gray">Quiz</h5>
         </div>
-        <div class="container-fluid">
-            <div class="row">
+        <div class="notes row mt-3">
+            <div class="col-8">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus aperiam aspernatur at autem
+                    beatae consequatur culpa deleniti dolor doloremque doloribus, error esse facilis fugit id illum
+                    incidunt itaque laboriosam maxime natus nisi, nostrum odit officiis perferendis perspiciatis placeat
+                    quam quasi quia quidem quo ratione rerum sunt voluptatibus? Dolore, molestias.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eligendi facere obcaecati
+                    officiis quis sunt unde. Ad asperiores beatae commodi culpa dolorum, error ipsam laboriosam minima
+                    nihil qui temporibus vero.s
+                </p>
+            </div>
+            <div class="col-4 ps-5">
+                <div class="instructor-information p-3  rounded-2">
+                    <h5 class="fw-bold">About Instructor</h5>
+                    <div class="instructor d-flex mt-4">
+                        <div class="instructor-profile overflow-hidden position-relative me-3">
+                            <img alt="" class="object-fit-cover" height="100%" src="assets/profile-image.jpg"
+                                 width="100%">
+                        </div>
+                        <div class="instructor-name ms-3">
+                            <p class="fw-bold m-0">Ismed Sofyan</p>
+                            <p class="dark-gray m-0">Sayap Kanan</p>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolore earum eos illo iste
+                            porro rem
+                            repellendus rerum tempora veritatis!</p>
+                    </div>
+                </div>
 
-                <div class="col-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, consequatur consequuntur cum dolorum ducimus esse incidunt minus nulla numquam obcaecati, quasi sapiente! Facere impedit in ipsa ipsam odio? Amet, quas.</div>
             </div>
 
         </div>
-    </div>
-    <div class="sub-main-content">
-aaa
-    </div>
 
-    <script src="https://kit.fontawesome.com/c3c4198b26.js" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/script.js"></script>
+    </div>
+</div>
+<div class="sub-main-content">
+    <div>
+
+    </div>
+    <div>
+
+    </div>i
+</div>
+
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/c3c4198b26.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

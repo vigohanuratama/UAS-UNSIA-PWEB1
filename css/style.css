@@ -4,11 +4,15 @@
 }
 
 .light-gray {
-    color: #F8FAFD
+    color: #FDFEFE
 }
 
-.dark-gray{
-    color: #A4A4A9;
+.gray{
+    color: #F3F3F6;
+}
+
+.dark-gray {
+    color: #8F8F96;
 }
 
 
@@ -33,14 +37,46 @@ nav {
     background-color: #FFFFFF;
 }
 
-video {
-    height: 500px;
-    width: 100%;
+.video-container {
+    cursor: pointer;
 }
 
+.video-container video{
+    border-radius: 7px;
+}
 
+.control-button {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #F8FAFD;
+    border-radius: 100%;
+    opacity: 0.5;
+    padding: 25px 27px;
+}
+
+.text-information .nav-text-information .active{
+    border-bottom: 2px solid #0a58ca;
+}
+
+.text-information p{
+    text-align: justify;
+}
+
+.text-information .notes .instructor-information {
+    background-color: #F9FAFD;
+}
+
+.text-information .notes .instructor-information .instructor-profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
 
 .sub-main-content{
-    border: 1px solid blueviolet;
+    border-left: 3px solid #F3F3F6;
     width: 30%;
 }
