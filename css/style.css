@@ -113,3 +113,6 @@ nav {
     border-radius: 100%;
 }
 
+table, th, td {
+    border: 1px solid black;
+}
